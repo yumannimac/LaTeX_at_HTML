@@ -1,3 +1,22 @@
+<script src="main.js"></script>
+
+		<script type="text/javascript" id="MathJax-script" async=""
+			src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+			</script>
+
+		<script>
+			MathJax = {
+				loader: { load: ['[tex]/physics', '[tex]/newcommand', '[tex]/mathtools'] },
+				tex: {
+					inlineMath: [['$', '$'], ['\\(', '\\)']],
+					packages: { '[+]': ['physics', 'newcommand', 'mathtools'] },
+				},
+				chtml: {
+					matchFontHeight: false
+				}
+			};
+		</script>
+
 # HTMLで $\LaTeX$ 数式を打つ
 
 ## 数式の書き方
@@ -88,3 +107,12 @@ display数式であれば
 		
 		</html>
 ```
+
+## snippetについて
+
+現在自分はVSCodeでコードを打っているがhtmlでも $\LaTeX$ のスニペットを使いたくなる時がある。その時は`latex.json`やその他 $\LaTeX$ を対象にしているスニペットを`html.json`あたりにコピペすれば使える。ちなみにsnippetに使うことのできるトリガー文字はMarkdownとほぼ同じで`.`か`/`である。`\`や`@`は（`@`はたまには使えるが）基本的に使えないことに注意。
+
+
+
+<script src="https://blz-soft.github.io/md_style/release/v1.2/md_style.js" ></script>
+
