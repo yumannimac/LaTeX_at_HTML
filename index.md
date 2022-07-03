@@ -30,7 +30,8 @@ HTMLはMathJaxやKaTeXを使うことで数式をレンダリングして表示�
 ```
 このコードを記入するだけで表示してくれる。
 
-![実際に打つ動画](LaTeX_at_HTML_files/suushiki1.mov)
+
+<video  controls controles poster="" preload="metadata" src="LaTeX_at_HTML_files/suushiki1.mov"></video>
 
 この動画のようにインラインでもディスプレイでもあたかも本家 $\LaTeX$ であるかのように数式を打ち込めるようになる。
 ## パッケージの利用
