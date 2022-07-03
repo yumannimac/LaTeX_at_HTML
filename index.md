@@ -31,7 +31,7 @@ HTMLはMathJaxやKaTeXを使うことで数式をレンダリングして表示�
 このコードを記入するだけで表示してくれる。
 
 
-!()[LaTeX_at_HTML_files/suushiki1.mov]
+![](LaTeX_at_HTML_files/suushiki1.mov)
 
 この動画のようにインラインでもディスプレイでもあたかも本家 $\LaTeX$ であるかのように数式を打ち込めるようになる。
 ## パッケージの利用
